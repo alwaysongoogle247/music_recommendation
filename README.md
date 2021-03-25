@@ -1,3 +1,4 @@
+![alt text](https://github.com/alwaysongoogle247/music_recommendation/tree/main/Images)
 In the repo you will find code for a recommendation system using the dataset from Last.Fm that was found on [GroupLens](https://grouplens.org/datasets/hetrec-2011/)
 
 *Business Problem*
