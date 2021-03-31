@@ -10,6 +10,7 @@ The music industry is a subjective industry. So it's hard to pinpoint what genre
 In this repo you will find code for a recommendation system using the dataset from Last.Fm that was found on [GroupLens](https://grouplens.org/datasets/hetrec-2011/)
 
 Data included the following features: <br />
+
 user_artists.dat (userID, artistID, weight). Plays of artist by user. <br />
 artists.dat (id, name, url, pictureURL). ID and name of each artist. <br />
 tags.dat (tagID, tagValue). ID number and content for each tag. <br />
@@ -17,7 +18,7 @@ user_taggedartists.dat (userID, artistID, tagID, day, month, year). Tag of artis
 user_taggedartists-timestamps.dat (userID, artistID, tagID, timestamp). Tag of artist by user with timestamp. <br />
 user_friends.dat (userID, friendID). User/friend relationships. <br />
 
-In total, we have:<br />
+Total dataset:<br />
 
 1,892 users<br />
 17,632 artists<br />
@@ -34,3 +35,9 @@ Models Used
 - Knn with surprise
 - SVD
 - Knn with SciKit Learn
+
+A recommendation system maps the distance between similarities. In our case we are going to map the distance between artists. I used the Cosine similarity but also tested pearson correlation and jaccard similarity
+
+The Cosine similarity is good for comparing the ratings of items, but does not consider the differences in mean and variance of the items. <br />
+The Jaccard similarity is a good choice for implicit item feedback (ie binary feedback such as like/dislike or played/not played). <br />
+The Pearson Correlation similarity also comparies the ratings of items and effects of mean and variance have been removed. <br />
