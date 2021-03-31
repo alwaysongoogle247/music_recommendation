@@ -36,8 +36,8 @@ Models Used
 - SVD
 - Knn with SciKit Learn
 
-A recommendation system maps the distance between similarities. In our case we are going to map the distance between artists. I used the Cosine similarity but also tested pearson correlation and jaccard similarity
+Recommendation systems map the distances between similarities. In our case we are going to map the distance between artists. I used the cosine similarity but also tested pearson correlation and jaccard similarity
 
-The Cosine similarity is good for comparing the ratings of items, but does not consider the differences in mean and variance of the items. <br />
-The Jaccard similarity is a good choice for implicit item feedback (ie binary feedback such as like/dislike or played/not played). <br />
-The Pearson Correlation similarity also comparies the ratings of items and effects of mean and variance have been removed. <br />
+The cosine similarity is good for comparing the ratings of items, but does not consider the differences in mean and variance of the items. <br />
+The jaccard similarity is a good choice for implicit item feedback (ie binary feedback such as like/dislike or played/not played). <br />
+The pearson Correlation similarity also comparies the ratings of items and effects of mean and variance have been removed. <br />
