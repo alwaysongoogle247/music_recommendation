@@ -27,10 +27,6 @@ Total dataset:<br />
 186,479 tag assignments<br />
 
 
-**Improve Accuracy**
-
-The average accuracy for the current model is 6 out of top 10 recommendations. Just about 60%. This was measured by asking users(friends) what was their favorite artist between 2006 and 2011. The model then recommended 10 artist according to the users favorite artist. After recieving recommendations the user chose which artist they would listen to our not. On average users would listen to 6 out of 10 artist with some users above and below the average. To improve the accuracy the dataset also has tags for genres that could be used to create more features and input into the model
-
 **Models Used**
 - Knn with surprise
 - SVD
@@ -41,3 +37,8 @@ Recommendation systems map the distances between similarities. In our case we ar
 The cosine similarity is good for comparing the ratings of items, but does not consider the differences in mean and variance of the items. <br />
 The jaccard similarity is a good choice for implicit item feedback (ie binary feedback such as like/dislike or played/not played). <br />
 The pearson Correlation similarity also comparies the ratings of items and effects of mean and variance have been removed. <br />
+
+
+**Improve Accuracy**
+
+The average accuracy for the current model is 6 out of top 10 recommendations. Just about 60%. This was measured by asking users(friends) what was their favorite artist between 2006 and 2011. The model then recommended 10 artist according to the users favorite artist. After recieving recommendations the user chose which artist they would listen to our not. On average users would listen to 6 out of 10 artist with some users above and below the average. To improve the accuracy the dataset also has tags for genres that could be used to create more features and input into the model
