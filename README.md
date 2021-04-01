@@ -1,11 +1,11 @@
 ![alt text](Images/music-recommendation-challenge.jpg)
 
-**Business Problem**
+**BUSINESS PROBLEM**
 
 The music industry is a subjective industry. So it's hard to pinpoint what genre,artist or song a listener may like. In this repo we built a music recommendation system using data from Last.fm. The recommendation system may assist a record label to predict what artists to market to which consumers.
 
 
-**The Dataset**
+**THE DATA**
 
 In this repo you will find code for a recommendation system using the dataset from Last.Fm that was found on [GroupLens](https://grouplens.org/datasets/hetrec-2011/)
 
@@ -27,7 +27,7 @@ Total dataset:<br />
 186,479 tag assignments<br />
 
 
-**Data Visualizations**
+**DATA VISUALIZATIONS**
 
 To get a better look at what data I was working with a created 2 features Total Unique Users and Total Artists Plays. This helped me find which artist were the most popular. In additon I learned that most users listen to very similar artist which is why i decided to do an item similarity with artists.
 ![alt text](Images/popular_artist.jpg)
@@ -38,7 +38,7 @@ I further investigated that users listen to an average 50 artists. This was in a
 
 
 
-**Models Used**
+**MODELS**
 - Knn with surprise
 - SVD
 - Knn with SciKit Learn
@@ -50,6 +50,6 @@ The jaccard similarity is a good choice for implicit item feedback (ie binary fe
 The pearson Correlation similarity also comparies the ratings of items and effects of mean and variance have been removed. <br />
 
 
-**Improve Accuracy**
+**IMPROVING ACCURACY**
 
 The average accuracy for the current model is 6 out of top 10 recommendations. Just about 60%. This was measured by asking users(friends) what was their favorite artist between 2006 and 2011. The model then recommended 10 artist according to the users favorite artist. After recieving recommendations the user chose which artist they would listen to our not. On average users would listen to 6 out of 10 artist with some users above and below the average. To improve the accuracy the dataset also has tags for genres that could be used to create more features and input into the model
