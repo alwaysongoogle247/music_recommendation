@@ -26,11 +26,14 @@ Total dataset:<br />
 11,946 tags<br />
 186,479 tag assignments<br />
 
-To get a beter look at what data i was working with a created 2 features Total Unique Users and Total Artists Plays. This helped me find which artist were the most popular. In additon I learned that most users listen to very similar artist which is why i decided to do an item similarity with artists
+
+**Data Visualizations**
+
+To get a better look at what data I was working with a created 2 features Total Unique Users and Total Artists Plays. This helped me find which artist were the most popular. In additon I learned that most users listen to very similar artist which is why i decided to do an item similarity with artists.
 ![alt text](Images/popular_artist.jpg)
 
 
-I further investigated that users listen to an average 50 artists. This was in a psan of 6 years. An indication that might mean it may difficult to introduce new artist to a user to quickly.
+I further investigated that users listen to an average 50 artists. This was in a psan of 6 years. An indication that might mean it may difficult to introduce new artists to a user too often.
 ![alt text](Images/user_artists.jpg)
 
 
